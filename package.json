@@ -1,0 +1,19 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website of WASIM AKRAM - Aspiring IT Professional & Web Developer, built with a modern Cyber Emerald and Mint Green aesthetic.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "web-development",
+    "vanilla-js",
+    "cyber-emerald"
+  ],
+  "author": "WASIM AKRAM",
+  "license": "MIT"
+}

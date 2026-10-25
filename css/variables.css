@@ -1,0 +1,113 @@
+:root {
+  /* ==========================================================================
+     CYBER EMERALD & MINT PALETTE (Permanent & Exclusive UI Color)
+     Deep Cosmic Obsidian, Vibrant Cyber Emerald, and Radiant Mint Green
+     ========================================================================== */
+  
+  /* Deep Obsidian & Cyber Slate Surfaces */
+  --color-mocha: #0F171E;            /* Dark Slate Cyber Section Base */
+  --color-mocha-deep: #080D12;       /* Deep Cosmic Obsidian Base Canvas */
+  --color-mocha-darker: #05080B;     /* Ultra Dark Footer */
+  --color-mocha-surface: #14222B;    /* Elevated Frosted Glass Surface */
+  --color-mocha-card: #182935;       /* Sleek Cyber Card Surface */
+
+  /* Pure White & Mint-Tinted Platinum Typography */
+  --color-champagne: #FFFFFF;        /* Crisp Pure White for Headings */
+  --color-champagne-light: #E0EBF0;  /* Bright High-Contrast Platinum Body */
+  --color-champagne-soft: #8BAAB8;   /* Cool Mint Silver for Subtitles */
+  --color-champagne-muted: #5C7A8A;  /* Muted Text */
+  --color-champagne-border: rgba(16, 185, 129, 0.18);
+  --color-champagne-border-hover: rgba(16, 185, 129, 0.5);
+
+  /* Cyber Emerald CTA & Main Accents */
+  --color-amber: #10B981;            /* Vibrant Cyber Emerald */
+  --color-amber-hover: #059669;      /* Rich Deep Emerald Hover */
+  --color-amber-active: #047857;     /* Active Click */
+  --color-amber-glow: rgba(16, 185, 129, 0.45);
+  --color-amber-soft: rgba(16, 185, 129, 0.15);
+  --color-amber-border: rgba(16, 185, 129, 0.35);
+
+  /* Radiant Mint Green Secondary Accent */
+  --color-cyan: #34D399;             /* Radiant Mint Green */
+
+  /* Contrast Highlight Cards */
+  --color-cream-surface: #172733;
+  --color-cream-border: rgba(16, 185, 129, 0.3);
+  --color-cream-text-primary: #FFFFFF;
+  --color-cream-text-secondary: #CBD5E1;
+
+  /* Ambient Mesh Lighting (Cyber Emerald & Mint Aura) */
+  --bg-glow-1: rgba(16, 185, 129, 0.16);
+  --bg-glow-2: rgba(52, 211, 153, 0.12);
+  --bg-glow-3: rgba(6, 182, 212, 0.08);
+
+  /* Neutrals & States */
+  --color-white: #FFFFFF;
+  --color-error: #EF4444;
+
+  /* Typography */
+  --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  --leading-tight: 1.2;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  --container-max: 1200px;
+  --header-height: 80px;
+
+  /* Borders & Radius */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  --shadow-card: 0 8px 30px rgba(0, 0, 0, 0.5);
+  --shadow-card-hover: 0 16px 40px rgba(0, 0, 0, 0.65);
+  --shadow-amber-btn: 0 6px 20px rgba(16, 185, 129, 0.45);
+  --shadow-amber-btn-hover: 0 10px 28px rgba(16, 185, 129, 0.65);
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Z-Index */
+  --z-negative: -1;
+  --z-sticky: 100;
+  --z-drawer: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+}
